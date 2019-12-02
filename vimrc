@@ -16,7 +16,7 @@ au BufNewFile,BufRead *.psql,*.pgsql set filetype=sql
 au BufNewFile,BufRead *.Rmd,*.rmd set filetype=md
 "--User Interface--
 set background=dark
-colorscheme solarized
+"colorscheme solarized
 " and make a few adjustments
 "hi Normal ctermbg=NONE
 "hi Folded ctermbg=NONE
@@ -140,7 +140,7 @@ set termencoding=utf-8
 "endif
 
 " Syntastic
-let g:syntastic_python_python_exec = '/usr/local/bin/python3'
+let g:syntastic_python_python_exec = '/usr/bin/python3'
 
 "" YouCompleteMe
 "let g:ycm_complete_in_comments = 0 " don't complete in comments
